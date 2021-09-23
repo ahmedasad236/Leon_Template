@@ -378,6 +378,20 @@ body {
     }
 }
 
+@media (max-width: 990px) {
+
+    .about .about-content {
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+
+    .about .about-content .image {
+        max-width: 100%;
+    }
+}
+
+
 .about .about-content .image {
     position: relative;
     width: 560px;
